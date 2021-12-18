@@ -1,0 +1,169 @@
+/* for dexstop mode */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.navbar .logo{
+    text-align: left;
+}
+ .navbar .heading h1{
+     text-align: right;
+ }
+.navbar .main-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.navbar .main-menu a{
+    margin-left:10px;
+    padding:5px 10px;
+}
+ 
+/* profile starts here */
+.profile .top-weater-img{
+    
+    width:120px;
+    right:100px;
+    transition:width 2s, transform 1s;
+}
+.profile .top-weater-img:hover{
+    width:150px;
+}
+.profile .bottom-weather-img{
+    
+    width:120px;
+    left:100px;
+    transition:width 2s, transform 1s;
+}
+.profile .bottom-weather-img:hover{
+    width:150px;
+}
+.profile-dec h1{
+    line-height: 25px;
+}
+.profile-dec p{
+    width:60%;
+    line-height:28px;
+}
+
+/* profile ends here */
+
+/* card section stars here */
+
+section .sub-heading{
+    margin:0 auto;
+     width:50%;
+    line-height:28px;
+    font-family: sans-serif;
+    color:rgb(88, 79, 79);
+    font-size:1.2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.card{
+    display:flex;
+      /* margin:0 auto; */
+    place-items: center;
+    background-color: #dda4a4;
+    flex-direction: column;
+    align-items: center;
+    padding:3rem 1rem;
+    margin:2rem;
+    border-radius:0.6rem;
+    transition: all 2s;
+    cursor:pointer;
+}
+.card:hover .card-icons{
+    /* /* background-color: darkmagenta; */
+    color:cyan; 
+   transform: scale(1.5);
+    
+}
+.card .card-icons i{
+    margin-top: -15px;
+    padding:20px 0;
+    font-size:3rem;
+    color:rgb(86, 87, 87);
+    background-color: salmon;
+    padding:20px;
+    border-radius:50%;
+    transition: all .2s linear;
+}
+.card .card-icons i:hover{
+    background-color: white;
+    color: steelblue;
+    cursor:pointer;
+}
+.card .card-title h2{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color:rgb(88, 79, 79)
+}
+.card .card-title p{
+    width: 80%;
+    margin:0 auto;
+    line-height:25px;
+    color:rgb(96, 102, 101);
+    padding-bottom:20px;
+
+}
+.btn{
+    display: inline-block;
+    background-color: rgb(112 44 44);
+    padding:10px 20px;
+    text-transform: capitalize;
+    border-radius: 0.2rem;
+    letter-spacing:.1rem;
+    color: rgb(243 251 175 / 72%);
+    font-size: 1.2rem;
+    transition: transform .3s linear;
+    margin-bottom: -10px;
+    transform: all .3s linear;
+}
+.btn:hover{
+    letter-spacing: 0.1rem;
+     color: cyan;
+    transform: scale(1.1);
+}
+
+/* contact section starts here */
+.contact-links{
+    position: relative;
+}
+.media-links{
+    margin-top:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.achivement{
+    margin-right:0px;
+}
+/* contact section ends here */
+
+/* footer starts here */
+.footer-menu{
+    /* margin-top:10px */
+}
+.footer-menu a{
+    display:inline;
+    margin:10px;
+
+}
+/* footer ends here */
